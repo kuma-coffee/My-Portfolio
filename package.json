@@ -1,0 +1,29 @@
+{
+  "name": "my-portofolio",
+  "version": "1.0.0",
+  "description": "portofolio",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuma-coffee/My-Portofolio.git"
+  },
+  "keywords": [
+    "portofolio"
+  ],
+  "author": "kuma-coffee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kuma-coffee/My-Portofolio/issues"
+  },
+  "homepage": "https://github.com/kuma-coffee/My-Portofolio#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "nodejs": "^0.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
