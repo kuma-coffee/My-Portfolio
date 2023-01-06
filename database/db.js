@@ -1,5 +1,9 @@
 const db = [
   {
+    link: "https://my-laundry.onrender.com/",
+    Image: "/img/my-laundry.png",
+  },
+  {
     link: "https://kuma-coffee.github.io/InPhone/",
     Image: "/img/inphone.png",
   },
@@ -11,10 +15,7 @@ const db = [
     link: "https://web-laptop.netlify.app/",
     Image: "/img/techInfo.png",
   },
-  {
-    link: "https://my-laundry.onrender.com/",
-    Image: "/img/my-laundry.png",
-  },
+
   // {
   //   link: "",
   //   Image: "/img/portfolio-stripe.jpeg",
