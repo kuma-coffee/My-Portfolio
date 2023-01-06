@@ -10,7 +10,7 @@
 
     <link rel="canonical" href="//" />
 
-    <!-- <link rel="icon" type="image/png" href="/img/favicon.png" /> -->
+    <!-- <link rel="icon" type="image/png" href="/assets/img/favicon.png" /> -->
 
     <link
       crossorigin="crossorigin"
@@ -36,7 +36,7 @@
 
     <link
       crossorigin="anonymous"
-      href="/styles/main.min.css"
+      href="/assets/styles/main.min.css"
       media="screen"
       rel="stylesheet"
     />
@@ -150,7 +150,11 @@
               class="absolute top-0 right-0 mt-4 mr-4"
               @click="mobileMenu = false"
             >
-              <img src="/img/icon-close.svg" class="h-10 w-auto" alt="" />
+              <img
+                src="/assets/img/icon-close.svg"
+                class="h-10 w-auto"
+                alt=""
+              />
             </button>
 
             <ul class="mt-8 flex flex-col">
@@ -191,7 +195,7 @@
 
         <div
           class="relative bg-cover bg-center bg-no-repeat py-8"
-          style="background-image: url(/img/bg-cta.jpg)"
+          style="background-image: url(/assets/img/bg-cta.jpg)"
         >
           <div
             class="absolute inset-0 z-20 bg-gradient-to-r from-hero-gradient-from to-hero-gradient-to bg-cover bg-center bg-no-repeat"
@@ -203,7 +207,7 @@
             <div class="flex flex-col items-center justify-center lg:flex-row">
               <div class="rounded-full border-8 border-primary shadow-xl">
                 <img
-                  src="/img/profile.jpg"
+                  src="/assets/img/profile.jpg"
                   class="h-48 rounded-full sm:h-56"
                   alt="author"
                 />
@@ -408,13 +412,13 @@
           <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div class="hidden group-hover:block">
               <img
-                src="/img/icon-development-white.svg"
+                src="/assets/img/icon-development-white.svg"
                 alt="development icon"
               />
             </div>
             <div class="block group-hover:hidden">
               <img
-                src="/img/icon-development-black.svg"
+                src="/assets/img/icon-development-black.svg"
                 alt="development icon"
               />
             </div>
@@ -437,13 +441,13 @@
           <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div class="hidden group-hover:block">
               <img
-                src="/img/icon-content-white.svg"
+                src="/assets/img/icon-content-white.svg"
                 alt="content marketing icon"
               />
             </div>
             <div class="block group-hover:hidden">
               <img
-                src="/img/icon-content-black.svg"
+                src="/assets/img/icon-content-black.svg"
                 alt="content marketing icon"
               />
             </div>
@@ -466,13 +470,13 @@
           <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div class="hidden group-hover:block">
               <img
-                src="/img/icon-mobile-white.svg"
+                src="/assets/img/icon-mobile-white.svg"
                 alt="Mobile Application icon"
               />
             </div>
             <div class="block group-hover:hidden">
               <img
-                src="/img/icon-mobile-black.svg"
+                src="/assets/img/icon-mobile-black.svg"
                 alt="Mobile Application icon"
               />
             </div>
@@ -495,13 +499,13 @@
           <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div class="hidden group-hover:block">
               <img
-                src="/img/icon-email-white.svg"
+                src="/assets/img/icon-email-white.svg"
                 alt="Email Marketing icon"
               />
             </div>
             <div class="block group-hover:hidden">
               <img
-                src="/img/icon-email-black.svg"
+                src="/assets/img/icon-email-black.svg"
                 alt="Email Marketing icon"
               />
             </div>
@@ -524,13 +528,13 @@
           <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div class="hidden group-hover:block">
               <img
-                src="/img/icon-design-white.svg"
+                src="/assets/img/icon-design-white.svg"
                 alt="Theme Design icon"
               />
             </div>
             <div class="block group-hover:hidden">
               <img
-                src="/img/icon-design-black.svg"
+                src="/assets/img/icon-design-black.svg"
                 alt="Theme Design icon"
               />
             </div>
@@ -553,13 +557,13 @@
           <div class="mx-auto h-24 w-24 text-center xl:h-28 xl:w-28">
             <div class="hidden group-hover:block">
               <img
-                src="/img/icon-graphics-white.svg"
+                src="/assets/img/icon-graphics-white.svg"
                 alt="Graphic Design icon"
               />
             </div>
             <div class="block group-hover:hidden">
               <img
-                src="/img/icon-graphics-black.svg"
+                src="/assets/img/icon-graphics-black.svg"
                 alt="Graphic Design icon"
               />
             </div>
@@ -596,25 +600,73 @@
       <div
         class="mx-auto grid w-full grid-cols-1 gap-8 pt-12 sm:w-3/4 md:gap-10 lg:w-full lg:grid-cols-3"
       >
-        <% items.forEach((item)=> { %>
         <a
-          href="<%= item.link %>"
+          href="/"
           class="mx-auto transform transition-all hover:scale-105 md:mx-0"
         >
           <img
-            src="<%= item.Image %>"
+            src="/assets/img/portfolio-apple.jpeg"
             class="w-full shadow"
             alt="portfolio image"
           />
         </a>
-        <% }) %>
+        <a
+          href="/"
+          class="mx-auto transform transition-all hover:scale-105 md:mx-0"
+        >
+          <img
+            src="/assets/img/portfolio-stripe.jpeg"
+            class="w-full shadow"
+            alt="portfolio image"
+          />
+        </a>
+        <a
+          href="/"
+          class="mx-auto transform transition-all hover:scale-105 md:mx-0"
+        >
+          <img
+            src="/assets/img/portfolio-fedex.jpeg"
+            class="w-full shadow"
+            alt="portfolio image"
+          />
+        </a>
+        <a
+          href="/"
+          class="mx-auto transform transition-all hover:scale-105 md:mx-0"
+        >
+          <img
+            src="/assets/img/portfolio-microsoft.jpeg"
+            class="w-full shadow"
+            alt="portfolio image"
+          />
+        </a>
+        <a
+          href="/"
+          class="mx-auto transform transition-all hover:scale-105 md:mx-0"
+        >
+          <img
+            src="/assets/img/portfolio-microsoft.jpeg"
+            class="w-full shadow"
+            alt="portfolio image"
+          />
+        </a>
+        <a
+          href="/"
+          class="mx-auto transform transition-all hover:scale-105 md:mx-0"
+        >
+          <img
+            src="/assets/img/portfolio-microsoft.jpeg"
+            class="w-full shadow"
+            alt="portfolio image"
+          />
+        </a>
       </div>
     </div>
 
     <!-- STATISTICS -->
     <div
       class="bg-cover bg-top bg-no-repeat pb-16 md:py-16 lg:py-24"
-      style="background-image: url(/img/experience-figure.png)"
+      style="background-image: url(/assets/img/experience-figure.png)"
       id="statistics"
     >
       <div class="container">
@@ -627,7 +679,7 @@
             >
               <div>
                 <img
-                  src="/img/icon-project.svg"
+                  src="/assets/img/icon-project.svg"
                   class="mx-auto h-12 w-auto md:h-20"
                   alt="icon project"
                 />
@@ -651,7 +703,7 @@
             >
               <div>
                 <img
-                  src="/img/icon-award.svg"
+                  src="/assets/img/icon-award.svg"
                   class="mx-auto h-12 w-auto md:h-20"
                   alt="icon award"
                 />
@@ -675,7 +727,7 @@
             >
               <div>
                 <img
-                  src="/img/icon-happy.svg"
+                  src="/assets/img/icon-happy.svg"
                   class="mx-auto h-12 w-auto md:h-20"
                   alt="icon happy clients"
                 />
@@ -699,7 +751,7 @@
             >
               <div>
                 <img
-                  src="/img/icon-puzzle.svg"
+                  src="/assets/img/icon-puzzle.svg"
                   class="mx-auto h-12 w-auto md:h-20"
                   alt="icon puzzle"
                 />
@@ -758,6 +810,6 @@
       </div>
     </div>
 
-    <script src="/js/main.js"></script>
+    <script src="/assets/js/main.js"></script>
   </body>
 </html>
