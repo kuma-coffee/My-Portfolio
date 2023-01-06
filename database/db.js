@@ -12,17 +12,17 @@ const db = [
     Image: "/img/techInfo.png",
   },
   {
-    link: "",
-    Image: "/img/portfolio-apple.jpeg",
+    link: "https://my-laundry.onrender.com/",
+    Image: "/img/my-laundry.png",
   },
-  {
-    link: "",
-    Image: "/img/portfolio-stripe.jpeg",
-  },
-  {
-    link: "",
-    Image: "/img/portfolio-stripe.jpeg",
-  },
+  // {
+  //   link: "",
+  //   Image: "/img/portfolio-stripe.jpeg",
+  // },
+  // {
+  //   link: "",
+  //   Image: "/img/portfolio-stripe.jpeg",
+  // },
 ];
 
 module.exports = db;
