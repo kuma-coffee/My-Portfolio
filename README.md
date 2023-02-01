@@ -1,6 +1,6 @@
-# My-Portofolio
+# My-Portfolio
 
-My Portofolio Website <br>
+My Portfolio Website <br>
 Made using html, javasript, tailwind and express <br>
 For frontend using Atoms template
 
