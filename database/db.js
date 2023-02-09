@@ -16,10 +16,10 @@ const db = [
     Image: "/img/techInfo.png",
   },
 
-  // {
-  //   link: "",
-  //   Image: "/img/portfolio-stripe.jpeg",
-  // },
+  {
+    link: "https://login-signup-1.netlify.app/",
+    Image: "imglogin-signup-1.png",
+  },
   // {
   //   link: "",
   //   Image: "/img/portfolio-stripe.jpeg",
