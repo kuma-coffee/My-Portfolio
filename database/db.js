@@ -18,7 +18,7 @@ const db = [
 
   {
     link: "https://login-signup-1.netlify.app/",
-    Image: "imglogin-signup-1.png",
+    Image: "/img/login-signup-1.png",
   },
   // {
   //   link: "",
