@@ -20,10 +20,10 @@ const db = [
     link: "https://login-signup-1.netlify.app/",
     Image: "/img/login-signup-1.png",
   },
-  // {
-  //   link: "",
-  //   Image: "/img/portfolio-stripe.jpeg",
-  // },
+  {
+    link: "https://kuma-portfolio-v2.netlify.app/",
+    Image: "/img/portfolio-v2.png",
+  },
 ];
 
 module.exports = db;
