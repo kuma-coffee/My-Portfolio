@@ -1,6 +1,6 @@
 {
   "engines": {
-    "node": "14.x"
+    "node": "18.x"
   },
   "devDependencies": {
     "ejs": "^3.1.8",
