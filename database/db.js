@@ -32,6 +32,14 @@ const db = [
     link: "https://kuma-portfolio-v2.netlify.app/",
     Image: "/img/portfolio-v2.png",
   },
+  {
+    link: "https://todo-app-dicoding.netlify.app/",
+    Image: "/img/todo-apps.png",
+  },
+  {
+    link: "https://personal-notes-321.netlify.app/",
+    Image: "/img/personal-notes.png",
+  },
 ];
 
 module.exports = db;
