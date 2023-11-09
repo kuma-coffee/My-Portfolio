@@ -8,7 +8,7 @@ const db = [
     Image: "/img/my-laundry.png",
   },
   {
-    link: "https://task-tracker-plus.up.railway.app/",
+    link: "https://task-tracker-plus-web.netlify.app/",
     Image: "/img/task-tracker-plus.png",
   },
   {
